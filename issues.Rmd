@@ -4,6 +4,7 @@ author: "Christof Neumann"
 output: pdf_document
 editor_options: 
   chunk_output_type: console
+urlcolor: blue
 ---
 
 ```{r setup, include=FALSE}
@@ -66,7 +67,7 @@ kable(x[grep("WMV", x$filename), ], row.names = FALSE)
 
 \clearpage
 
-Now I run Marvin's yunitator on these 12 audio files. This is run in a virtual machine (following the instructions in the DiViMe documentation[https://divime.readthedocs.io/en/latest/]). The command I used is this:
+Now I run Marvin's yunitator on these 12 audio files. This is run in a virtual machine following the instructions in the [DiViMe documentation](https://divime.readthedocs.io/en/latest/). The command I used is this:
 
 `vagrant ssh -c 'yunitate.sh data/ english'`
 
