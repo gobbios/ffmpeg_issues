@@ -4,7 +4,7 @@ Note that I did not upload any of the video and audio files and neither the ffmp
 
 A summary of the procedure is in the pdf, but compiling it would require the source videos (and a working version of `avutils` R package), as would running the steps in `script.R`, which is the full code to produce the results here.
 
-There are three take-home message from this exercise.
+There are three take-home messages from this exercise.
 
 1) When the source for your audio is a video, it matters which version of `ffmpeg` you use to extract the audio. Somewhere between 3.3 and 4.2 there was a change.
 
